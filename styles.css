@@ -70,13 +70,15 @@ ul {
     gap:12px;
 }
 
-
+.info {
+    padding: 30px;
+}
 .info-header {
     font-size:36px;
-    color: #1f2927;
+    color: #1f2937;
     font-weight:900;
     text-align: center;
-    padding: 30px;
+    padding: 0 0 30px;
 }
 
 .boxes {
@@ -102,4 +104,21 @@ ul {
     outline:aqua 2px solid;
     border-radius: 5%;
     flex-shrink:0;
+}
+
+.quotes {
+    /* display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    background-color: #E5E7EB;
+    padding: 30px 200px;
+}
+.quote {
+    font-size:36px;
+    color:#1F2937;
+    font-weight:300;
+}
+.author {
+    text-align: right;
 }
