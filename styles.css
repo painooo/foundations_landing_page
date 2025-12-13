@@ -11,7 +11,7 @@ body {
 .landing {
     background:white;
 }
-.hero {
+.hero, .copyright {
     flex:1;
     background:#1F2937;
     color:#F9FAF8;
@@ -27,11 +27,11 @@ body {
     font-size:18px;
     color:#E5E7EB;
 }
-.button {
+.button, .button2 {
     background-color: #3882F6;
     border:5px #3882F6;
-    border-radius: 8%;
-    padding:6px 16px;
+    border-radius: 8px;
+    padding:6px 25px;
     color:#F9FAF8;
 }
 li {
@@ -121,4 +121,33 @@ ul {
 }
 .author {
     text-align: right;
+}
+.four {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding:70px;
+}
+.actions {
+    flex-basis:900px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    background:#3882F6;
+    padding:16px 12px;
+    border-radius: 5px;
+}
+.action {
+    color:#F9FAF8;
+}
+
+.button2 {
+    outline:white 2px solid;
+}
+
+.copyright{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:60px
 }
